@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C256CFB26A9B06300680D0F /* GatexPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C256CFA26A9B06300680D0F /* GatexPresentationViewController.swift */; };
+		0C256CFF26AAF16600680D0F /* SituationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C256CFE26AAF16600680D0F /* SituationViewController.swift */; };
+		0C256D0326AAF6ED00680D0F /* storyStateVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C256D0226AAF6ED00680D0F /* storyStateVars.swift */; };
+		0C256D0526AB2CAD00680D0F /* ReactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C256D0426AB2CAD00680D0F /* ReactionViewController.swift */; };
+		0C256D0726AB2D0800680D0F /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C256D0626AB2D0800680D0F /* extensions.swift */; };
+		0C256D0926AB316200680D0F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C256D0826AB316200680D0F /* MainViewController.swift */; };
+		0C256D0B26AC579600680D0F /* YourDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C256D0A26AC579600680D0F /* YourDataViewController.swift */; };
+		0C256D1826AC858500680D0F /* touch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C256D1726AC858400680D0F /* touch.wav */; };
+		0C256D1C26AC88E600680D0F /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0C256D1B26AC88E600680D0F /* background.mp3 */; };
+		0C256D2026AC8B1800680D0F /* catPurrAndMeow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C256D1D26AC8B1800680D0F /* catPurrAndMeow.wav */; };
+		0C256D2126AC8B1800680D0F /* catScream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C256D1E26AC8B1800680D0F /* catScream.wav */; };
+		0C256D2226AC8B1800680D0F /* catSoftMeow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C256D1F26AC8B1800680D0F /* catSoftMeow.wav */; };
 		0CB3526526A7097300E09D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3526426A7097300E09D3D /* AppDelegate.swift */; };
 		0CB3526726A7097300E09D3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3526626A7097300E09D3D /* SceneDelegate.swift */; };
 		0CB3526926A7097300E09D3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3526826A7097300E09D3D /* ViewController.swift */; };
@@ -16,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C256CFA26A9B06300680D0F /* GatexPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatexPresentationViewController.swift; sourceTree = "<group>"; };
+		0C256CFE26AAF16600680D0F /* SituationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituationViewController.swift; sourceTree = "<group>"; };
+		0C256D0226AAF6ED00680D0F /* storyStateVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyStateVars.swift; sourceTree = "<group>"; };
+		0C256D0426AB2CAD00680D0F /* ReactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionViewController.swift; sourceTree = "<group>"; };
+		0C256D0626AB2D0800680D0F /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		0C256D0826AB316200680D0F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0C256D0A26AC579600680D0F /* YourDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDataViewController.swift; sourceTree = "<group>"; };
+		0C256D1726AC858400680D0F /* touch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = touch.wav; sourceTree = "<group>"; };
+		0C256D1B26AC88E600680D0F /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		0C256D1D26AC8B1800680D0F /* catPurrAndMeow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = catPurrAndMeow.wav; sourceTree = "<group>"; };
+		0C256D1E26AC8B1800680D0F /* catScream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = catScream.wav; sourceTree = "<group>"; };
+		0C256D1F26AC8B1800680D0F /* catSoftMeow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = catSoftMeow.wav; sourceTree = "<group>"; };
 		0CB3526126A7097300E09D3D /* Gatex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gatex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB3526426A7097300E09D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CB3526626A7097300E09D3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +61,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C256D0026AAF5A400680D0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C256CFA26A9B06300680D0F /* GatexPresentationViewController.swift */,
+				0C256CFE26AAF16600680D0F /* SituationViewController.swift */,
+				0CB3526826A7097300E09D3D /* ViewController.swift */,
+				0C256D0426AB2CAD00680D0F /* ReactionViewController.swift */,
+				0C256D0826AB316200680D0F /* MainViewController.swift */,
+				0C256D0A26AC579600680D0F /* YourDataViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0C256D0126AAF6D300680D0F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0C256D0226AAF6ED00680D0F /* storyStateVars.swift */,
+				0C256D0626AB2D0800680D0F /* extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0C256D0C26AC7A3400680D0F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0C256D1D26AC8B1800680D0F /* catPurrAndMeow.wav */,
+				0C256D1E26AC8B1800680D0F /* catScream.wav */,
+				0C256D1F26AC8B1800680D0F /* catSoftMeow.wav */,
+				0C256D1B26AC88E600680D0F /* background.mp3 */,
+				0C256D1726AC858400680D0F /* touch.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		0CB3525826A7097300E09D3D = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +114,11 @@
 		0CB3526326A7097300E09D3D /* Gatex */ = {
 			isa = PBXGroup;
 			children = (
+				0C256D0C26AC7A3400680D0F /* Sounds */,
+				0C256D0126AAF6D300680D0F /* Utils */,
+				0C256D0026AAF5A400680D0F /* Controllers */,
 				0CB3526426A7097300E09D3D /* AppDelegate.swift */,
 				0CB3526626A7097300E09D3D /* SceneDelegate.swift */,
-				0CB3526826A7097300E09D3D /* ViewController.swift */,
 				0CB3526A26A7097300E09D3D /* Main.storyboard */,
 				0CB3526D26A7097500E09D3D /* Assets.xcassets */,
 				0CB3526F26A7097500E09D3D /* LaunchScreen.storyboard */,
@@ -124,9 +184,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C256D2026AC8B1800680D0F /* catPurrAndMeow.wav in Resources */,
+				0C256D1826AC858500680D0F /* touch.wav in Resources */,
+				0C256D1C26AC88E600680D0F /* background.mp3 in Resources */,
 				0CB3527126A7097500E09D3D /* LaunchScreen.storyboard in Resources */,
+				0C256D2126AC8B1800680D0F /* catScream.wav in Resources */,
 				0CB3526E26A7097500E09D3D /* Assets.xcassets in Resources */,
 				0CB3526C26A7097300E09D3D /* Main.storyboard in Resources */,
+				0C256D2226AC8B1800680D0F /* catSoftMeow.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +202,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C256D0526AB2CAD00680D0F /* ReactionViewController.swift in Sources */,
+				0C256CFF26AAF16600680D0F /* SituationViewController.swift in Sources */,
+				0C256CFB26A9B06300680D0F /* GatexPresentationViewController.swift in Sources */,
+				0C256D0726AB2D0800680D0F /* extensions.swift in Sources */,
 				0CB3526926A7097300E09D3D /* ViewController.swift in Sources */,
+				0C256D0B26AC579600680D0F /* YourDataViewController.swift in Sources */,
 				0CB3526526A7097300E09D3D /* AppDelegate.swift in Sources */,
+				0C256D0926AB316200680D0F /* MainViewController.swift in Sources */,
+				0C256D0326AAF6ED00680D0F /* storyStateVars.swift in Sources */,
 				0CB3526726A7097300E09D3D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
